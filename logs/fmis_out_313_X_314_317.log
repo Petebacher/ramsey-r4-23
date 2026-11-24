@@ -1,0 +1,6 @@
+start_2026-11-24T20:18:34Z
+file=g313/X_314_317.txt n=234 edges=6669 symmetric=1 zero_diag=1 T=21 threads=8
+triangles=22022 K4_count=0
+nodes=64154552 wall=9.1s
+RESULT: independent set of size 21 exists: NO
+end_2026-11-24T20:18:43Z

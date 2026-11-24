@@ -1,0 +1,11 @@
+| inputs | triangles/cliques T tested | F valid | condition wrong | broken variant wrong |
+|---|---|---|---|---|
+| R43_8_0 | 12 | 8 | 0 | 0 |
+| R43_8_1 | 10 | 4 | 0 | 0 |
+| R43_8_2 | 8 | 0 | 0 | 0 |
+| P9 | 6 | 6 | 0 | 0 |
+| P13 | 26 | 26 | 0 | 0 |
+| P17 | 68 | 0 | 0 | 0 |
+| random k=4 | 5699 | 5466 | 0 | 0 |
+| random k=5 | 5077 | 4355 | 0 | 92 |
+| random k=6 | 4915 | 2299 | 0 | 85 |

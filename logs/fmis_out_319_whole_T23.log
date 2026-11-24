@@ -1,0 +1,6 @@
+start_2026-11-24T20:18:52Z
+file=R4_23_320.txt n=319 edges=12453 symmetric=1 zero_diag=1 T=23 threads=8
+triangles=58614 K4_count=0
+nodes=5660971838 wall=803.5s
+RESULT: independent set of size 23 exists: NO
+end_2026-11-24T20:32:15Z

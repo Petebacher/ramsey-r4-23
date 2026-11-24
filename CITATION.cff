@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this graph, please cite it as below."
+title: "R(4,23) >= 320: a 319-vertex Ramsey graph"
+version: "1.0"
+authors:
+  - family-names: Chrisbacher
+    given-names: Peter J.
+date-released: 2026-11-24
+license: CC-BY-4.0
+abstract: "A graph on 319 vertices with no K4 and no independent set of size 23, so R(4,23) >= 320. No source we could find prints a value for R(4,23); 319 is what published rules give (the Burr-Erdos-Faudree-Schelp step from R(4,22) >= 314). The graph adds 6 vertices to the quartic-residue circulant on 313 vertices (Li-Su-Luo-Wu, unpublished 2011; Lindsay-Cain, arXiv 2015) by Theorem TB, a conditional k = 4 variant of Theorem 3 of Xu, Shao and Radziszowski (SIAM J. Discrete Math. 25 (2011)) with an independent twin block; its condition is alpha(H - N(T)) <= alpha(H) - 2 for a triangle T. Both sides are checked directly on the finished graph by three separately written exact programs."
+keywords: [Ramsey numbers, lower bounds, graph construction, R(4,23)]

@@ -1,0 +1,57 @@
+R4_23_320.txt: OK
+build.py: OK
+decomp_check.py: OK
+fclq.c: OK
+fmis.c: OK
+chk.c: OK
+run_chk.sh: OK
+rulecheck.py: OK
+graphs.json: OK
+reproduce.sh: OK
+== Rebuild from scratch (Q313 = quartic residues mod 313, triangle T = {0, 1, 4})
+wrote rebuilt.txt: n = 319, edges = 12453
+rebuilt graph is byte-identical to R4_23_320.txt
+== The rule's condition and the exact decomposition (fclq on each part)
+n = 319, extras 6, independent X subsets 13, jobs 8 -> decomp_R4_23_320/jobs.txt
+  no independent 21-set in H_minus_N0.txt  (alpha(H) < 22 via H - N[0])
+  no independent 21-set in R_313_316.txt  (X = (313, 316), |R| = 234)
+  no independent 21-set in R_314_317.txt  (X = (314, 317), |R| = 234)
+  no independent 21-set in R_315_318.txt  (X = (315, 318), |R| = 234)
+  no independent 21-set in R_316_317.txt  (X = (316, 317), |R| = 171)
+  no independent 21-set in R_316_318.txt  (X = (316, 318), |R| = 171)
+  no independent 21-set in R_317_318.txt  (X = (317, 318), |R| = 171)
+  no independent 20-set in R_316_317_318.txt  (X = (316, 317, 318), |R| = 121)
+-- alpha(H) < 22 via H - N[0]: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (313, 316), |R| = 234: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (314, 317), |R| = 234: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (315, 318), |R| = 234: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (316, 317), |R| = 171: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (316, 318), |R| = 171: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (317, 318), |R| = 171: independent 21-set?
+RESULT: independent set of size 21 exists: no
+-- X = (316, 317, 318), |R| = 121: independent 20-set?
+RESULT: independent set of size 20 exists: no
+== No K4: fclq and fmis (fmis prints the exact K4 count)
+RESULT: clique of size 4 exists: no
+triangles=58614 K4_count=0
+== Positive control: an independent 22-set exists (fclq)
+RESULT: independent set of size 22 exists: YES
+== Rule lie detector (small and random cases)
+| inputs | triangles/cliques T tested | F valid | condition wrong | broken variant wrong |
+|---|---|---|---|---|
+| R43_8_0 | 12 | 8 | 0 | 0 |
+| R43_8_1 | 10 | 4 | 0 | 0 |
+| R43_8_2 | 8 | 0 | 0 | 0 |
+| P9 | 6 | 6 | 0 | 0 |
+| P13 | 26 | 26 | 0 | 0 |
+| P17 | 68 | 0 | 0 | 0 |
+| random k=4 | 1072 | 1012 | 0 | 0 |
+| random k=5 | 1012 | 847 | 0 | 26 |
+| random k=6 | 971 | 495 | 0 | 30 |
+ALL CHECKS PASSED

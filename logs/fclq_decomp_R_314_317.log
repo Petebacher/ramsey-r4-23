@@ -1,0 +1,6 @@
+start 2026-11-24T19:45:59Z X = (314, 317), |R| = 234
+file=R_314_317.txt n=234 edges=6669 symmetric=yes zero_diag=yes mode=independent T=21 threads=8
+root: 174 branch vertices after peeling 20 colour classes
+nodes=59170971 wall=14.5s
+RESULT: independent set of size 21 exists: no
+end 2026-11-24T19:46:13Z

@@ -1,0 +1,22 @@
+Code (build.py, decomp_check.py, rulecheck.py, fclq.c, fmis.c, chk.c, run_chk.sh, reproduce.sh): MIT License
+
+Copyright (c) 2026 Peter J. Chrisbacher
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The graph R4_23_320.txt, graphs.json, the logs and README.md: Creative Commons Attribution 4.0 International (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/ . Please credit Peter J. Chrisbacher and cite this repository.
+R4_23_320.txt contains the quartic-residue circulant on 313 vertices (Li-Su-Luo-Wu, unpublished 2011; Lindsay-Cain, arXiv 2015) as an
+induced subgraph; that graph is defined by a formula and is rebuilt from scratch by build.py.
+graphs.json holds small standard graphs (K3, the three (4,3;8)-graphs, Paley graphs of order 9, 13 and 17).

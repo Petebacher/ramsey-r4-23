@@ -1,0 +1,11 @@
+{
+  "repo": "ramsey-r4-23",
+  "title": "R(4,23) >= 320: a 319-vertex Ramsey graph",
+  "description": "<p>A graph on 319 vertices with no K<sub>4</sub> and no independent set of size 23, so R(4,23) &ge; 320. No source we could find prints a value for R(4,23); 319 is what published rules give (the Burr-Erd&odblac;s-Faudree-Schelp step from R(4,22) &ge; 314). The gain is +1.</p><p>The graph adds six vertices to the quartic-residue circulant on 313 vertices (Li, Su, Luo and Wu, unpublished 2011; Lindsay and Cain, arXiv 2015) by Theorem TB, a conditional k = 4 variant of Theorem 3 of Xu, Shao and Radziszowski (SIAM J. Discrete Math. 25 (2011)) in which the twin block is independent. Its condition, alpha(H - N(T)) &le; alpha(H) - 2 for a triangle T, holds here with alpha(H - N(T)) = 19. Both the clique side and the independent-set side are checked directly on the finished graph by three separately written exact programs; the proof of the rule and a randomized test of its exact condition are included.</p>",
+  "version": "1.0",
+  "creators": [{"name": "Chrisbacher, Peter J."}],
+  "license": "cc-by-4.0",
+  "upload_type": "dataset",
+  "keywords": ["Ramsey numbers", "lower bounds", "R(4,23)", "graph construction", "quartic residues"],
+  "release_notes": "R(4,23) >= 320 (319-vertex graph) by Theorem TB (conditional k = 4 variant of Xu-Shao-Radziszowski 2011 Theorem 3) on the quartic-residue circulant Q313.\nIncludes a standard-library builder, an exact decomposition, three exact checkers with logs, the rule test and reproduce.sh."
+}

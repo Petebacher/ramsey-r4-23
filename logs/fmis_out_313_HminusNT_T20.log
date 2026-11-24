@@ -1,0 +1,4 @@
+file=g313/H_minus_NT.txt n=121 edges=1641 symmetric=1 zero_diag=1 T=20 threads=8
+triangles=2264 K4_count=0
+nodes=73242 wall=0.0s
+RESULT: independent set of size 20 exists: NO

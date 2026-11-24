@@ -1,0 +1,4 @@
+file=../../rules/solverdesign/c2f/F_313_4.txt n=319 edges=12453 symmetric=1 zero_diag=1 T=200 threads=4
+triangles=58614 K4_count=0
+nodes=57 wall=0.0s
+RESULT: independent set of size 200 exists: NO

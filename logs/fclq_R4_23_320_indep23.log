@@ -1,0 +1,6 @@
+start 2026-11-24T19:43:04Z
+file=c2f/F_313_4.txt n=319 edges=12453 symmetric=yes zero_diag=yes mode=independent T=23 threads=8
+root: 253 branch vertices after peeling 22 colour classes
+nodes=4064829835 wall=535.1s
+RESULT: independent set of size 23 exists: no
+end 2026-11-24T19:51:59Z
